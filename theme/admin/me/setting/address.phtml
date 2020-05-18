@@ -13,11 +13,13 @@
             </div>
         <?php else: ?>
             <div class="row">
-                <div class="col-md-5">
+                <div class="col-md-6">
                     <?= $form->field('country', $opts['country']) ?>
                     <?= $form->field('state', $opts['state']) ?>
                     <?= $form->field('city', $opts['city']) ?>
                     <?= $form->field('district', $opts['district']) ?>
+                </div>
+                <div class="col-md-6">
                     <?= $form->field('village', $opts['village']) ?>
                     <?= $form->field('zipcode', $opts['zipcode']) ?>
                     <?= $form->field('street') ?>
